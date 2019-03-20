@@ -8,14 +8,17 @@ A Fitness and Workout Tracking app called fitTrkr using [Flask](https://github.c
 
 ### Setting up the Project
 1. Use pip to install required python libraries.
-`
+
+```
 pip install flask
 pip install flask_mysqldb
 pip install wtforms
 pip install passlib
 pip install functools
-`
+```
+
 2. Setup the database with MySQL
+
 `CREATE DATABASE fitTrkr;`
 
 ### Run the Project
