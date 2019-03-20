@@ -1,21 +1,22 @@
 # fitTrkr
-This is a Fitness and Workout Tracking app called fitTrkr using [Flask](https://github.com/pallets/flask) Backend with MySQL from Scratch. 
-
-=====
+A Fitness and Workout Tracking app called fitTrkr using [Flask](https://github.com/pallets/flask) Backend with MySQL from Scratch. 
 
 ### Requirements
-..* Python
-..* pip
-..* MySQL
+* Python
+* pip
+* MySQL
 
-###Setting up the Project
-Fork the repository and cd into to Project Directory
-1. pip install flask
-2. pip install flask_mysqldb
-3. pip install wtforms
-4. pip install passlib
-5. pip install functools
-6. Set up the Database
+### Setting up the Project
+1. Use pip to install required python libraries.
+`
+pip install flask
+pip install flask_mysqldb
+pip install wtforms
+pip install passlib
+pip install functools
+`
+2. Setup the database with MySQL
+`CREATE DATABASE fitTrkr;`
 
 ### Run the Project
 `cd FitnessTracker`
@@ -23,10 +24,6 @@ Fork the repository and cd into to Project Directory
 `python app.py`
 
 `Point yor browser to [Localhost](https://localhost:5000)`
-
-
-##### Setting up Database, make sure that database is set up
-`CREATE DATABASE fitTrkr;`
 
 #### USE myflaskapp db using MySQL
 `USE fitTrkr;`
